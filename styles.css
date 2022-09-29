@@ -8,7 +8,6 @@ body {
     justify-content: space-between;
     align-items: baseline;
     background-color: peachpuff;
-   padding-bottom: 50px;
 }
 
 h2 {
@@ -49,7 +48,8 @@ ul {
     background-color: peachpuff;
     padding-left: 200px;
     padding-right: 200px;
-    padding-bottom: 50px;
+    padding-bottom: 100px;
+    padding-top: 50px;
 }
 
 .subheader-left {
@@ -75,3 +75,37 @@ ul {
     margin-top: 15px;
 }
 
+h3 {
+    margin-top: 50px;
+    font-size: 24px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.containerone {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.items {
+    display: flex;
+    flex-direction: column;
+    max-width: 150px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.itemtext {
+    font-size: 16px;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: black;
+}
+
+.itemphotos {
+    border-radius: 80px;
+    margin: 30px;
+}
