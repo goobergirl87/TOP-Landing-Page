@@ -46,10 +46,7 @@ ul {
     display: flex;
     align-items: flex-ends;
     background-color: peachpuff;
-    padding-left: 200px;
-    padding-right: 200px;
-    padding-bottom: 100px;
-    padding-top: 50px;
+    padding: 50px 200px 100px 200px;
 }
 
 .subheader-left {
@@ -86,6 +83,7 @@ h3 {
     display: flex;
     justify-content: center;
     gap: 50px;
+    margin-bottom: 50px;
 }
 
 .items {
@@ -95,7 +93,6 @@ h3 {
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin-bottom: 50px;
 }
 
 .itemtext {
@@ -108,4 +105,28 @@ h3 {
 .itemphotos {
     border-radius: 80px;
     margin: 30px;
+}
+
+.containertwo {
+    background-color: moccasin;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    padding: 100px 350px;
+}
+
+.quote {
+    font-size: 24px;
+    font-family: sans-serif;
+    font-style: italic;
+    font-weight: 100;
+}
+
+.author {
+    align-self: flex-end;
+    font-size: 24px;
+    font-family: sans-serif;
+    color:crimson;
+    padding-right: 30px;
 }
